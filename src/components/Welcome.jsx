@@ -8,7 +8,7 @@ const FONT_WEIGHT = {
 
 const renderText = ( text, className, baseWeight = 400) => {
     return [...text].map((char, i)=>(
-        <span key={i} className={className} style={{fontVariationSettings: `'wht' ${baseWeight}` }}>
+        <span key={i} className={className} style={{fontVariationSettings: `'wght' ${baseWeight}` }}>
             {char === " " ? '\u00A0' : char}
         </span>
     ));
@@ -40,7 +40,7 @@ const setupTextHover = (container, type ) => {
         });
     };
 
-    const handMouseLeave = (e) =>
+    const handMouseLeave = () =>
         letters.forEach((letter) => animateLetters(letter, base, 0.3 ));
 
 
