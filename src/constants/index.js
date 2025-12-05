@@ -101,28 +101,55 @@ const blogPosts = [
 
 const techStack = [
     {
-        category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        category: "3DEXPERIENCE Platform",
+        items: [
+            "ENOVIA (PDM, Collaboration)",
+            "DELMIA (Manufacturing Engineering)",
+            "NETVIBES (Dashboards & Data Intelligence)",
+            "3DPlay, Design Review, Interference Check",
+            "Widgets & Custom App Integration",
+            "PCS: Performance, Capacity & Scalability",
+            "SecNumCloud Migration & Hardening"
+        ],
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "Architecture & Engineering",
+        items: [
+            "Solution Design (AS-IS / TO-BE)",
+            "Process Optimization & Workflow Modeling",
+            "System Integration & Interoperability",
+            "Data Governance & Lifecycle Management",
+            "Cloud & Hybrid Architecture"
+        ],
     },
     {
-        category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        category: "Technical Skills",
+        items: [
+            "Scripting & Automation",
+            "API Usage & Integration (REST, 3DEXPERIENCE Web Services)",
+            "Networking & Infrastructure Basics",
+            "CI/CD Practices",
+            "Git, Jira, Confluence"
+        ],
     },
     {
-        category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        category: "Industrial Systems",
+        items: [
+            "PLM / MBSE Foundations",
+            "Manufacturing Process Mapping",
+            "Digital Continuity (Engineering → Manufacturing)",
+            "Change Management & Configuration Control"
+        ],
     },
     {
-        category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
-    },
-    {
-        category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        category: "Consulting & Delivery",
+        items: [
+            "Stakeholder Management & Technical Advisory",
+            "Workshop Facilitation & Enablement",
+            "MVP Delivery",
+            "Enterprise Deployment",
+            "Technical Communication & Leadership"
+        ],
     },
 ];
 
