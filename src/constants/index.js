@@ -77,80 +77,119 @@ const dockApps = [
 const blogPosts = [
     {
         id: 1,
-        date: "Sep 2, 2025",
-        title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+        date: "18 months ago",
+        title: "Present and Future Outlooks of PLM in Manufacturing Industries",
+        image: "images/blog-1.jpeg",
+        link: "https://discover.3ds.com/present-and-future-outlooks-plm-manufacturing-industries"
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        date: "20 months ago",
+        image: "images/blog-2.png",
+        title: "The Impact of PLM Systems on the Digital Transformation of Manufacturing Companies",
+        link: "https://www.researchgate.net/publication/379428525_The_Impact_of_PLM_Systems_on_the_Digital_Transformation_of_Manufacturing_Companies"
     },
     {
-        id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
-    },
+        "id": 4,
+        "date": "Dec 14, 2010",
+        "title": "Product Lifecycle Management — From Its History to Its New Role",
+        "image": "/images/blog-5.jpeg",
+        "link": "https://www.researchgate.net/publication/264814281_Product_lifecycle_management_-_From_its_history_to_its_new_role"
+        },
 ];
 
 const techStack = [
     {
-        category: "3DEXPERIENCE Platform",
+        category: "PLM & 3DEXPERIENCE",
         items: [
-            "ENOVIA (PDM, Collaboration)",
-            "DELMIA (Manufacturing Engineering)",
-            "NETVIBES (Dashboards & Data Intelligence)",
-            "3DPlay, Design Review, Interference Check",
-            "Widgets & Custom App Integration",
-            "PCS: Performance, Capacity & Scalability",
-            "SecNumCloud Migration & Hardening"
-        ],
+            "ENOVIA",
+            "DELMIA",
+            "NETVIBES",
+            "3DPlay",
+            "PCS",
+            "DS Tools"
+        ]
     },
     {
-        category: "Architecture & Engineering",
+        category: "Solution Architecture",
         items: [
-            "Solution Design (AS-IS / TO-BE)",
-            "Process Optimization & Workflow Modeling",
-            "System Integration & Interoperability",
-            "Data Governance & Lifecycle Management",
-            "Cloud & Hybrid Architecture"
-        ],
+            "Data Model",
+            "TO-BE",
+            "Integration",
+            "Digital Thread",
+            "Hybrid Cloud"
+        ]
+    },
+    {
+        category: "Engineering Systems",
+        items: [
+            "PLM",
+            "MBSE",
+            "Mfg Flows",
+            "Config Control",
+            "Interop"
+        ]
     },
     {
         category: "Technical Skills",
         items: [
-            "Scripting & Automation",
-            "API Usage & Integration (REST, 3DEXPERIENCE Web Services)",
-            "Networking & Infrastructure Basics",
-            "CI/CD Practices",
-            "Git, Jira, Confluence"
-        ],
+            "REST APIs",
+            "Automation",
+            "CI/CD",
+            "Git",
+            "Infra"
+        ]
     },
     {
-        category: "Industrial Systems",
+        category: "Delivery & Consulting",
         items: [
-            "PLM / MBSE Foundations",
-            "Manufacturing Process Mapping",
-            "Digital Continuity (Engineering → Manufacturing)",
-            "Change Management & Configuration Control"
-        ],
+            "Workshops",
+            "MVPs",
+            "Deployments",
+            "Advisory"
+        ]
     },
     {
-        category: "Consulting & Delivery",
+        category: "Industries & Domains",
         items: [
-            "Stakeholder Management & Technical Advisory",
-            "Workshop Facilitation & Enablement",
-            "MVP Delivery",
-            "Enterprise Deployment",
-            "Technical Communication & Leadership"
-        ],
+            "Automotive",
+            "Defense",
+            "Energy",
+            "Smart Cities",
+            "Power Grid",
+            "Aerospace"
+        ]
     },
+    {
+        category: "Soft Skills",
+        items: [
+            "Teamwork",
+            "Communication",
+            "Leadership",
+            "Problem-Solving",
+            "Adaptability"
+        ]
+    },
+    {
+        category: "Work Methods",
+        items: [
+            "Agile",
+            "Scrum",
+            "Kanban",
+            "Cross-Team Work",
+            "Tech Workshops"
+        ]
+    },
+    {
+        category: "Workplace Tools",
+        items: [
+            "Jira",
+            "Confluence",
+            "Office Suite",
+            "Teams",
+            "Notion"
+        ]
+    }
 ];
 
 const socials = [
@@ -159,28 +198,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/ibenaissaboukhari-gif",
     },
     {
         id: 2,
-        text: "Platform",
+        text: "Website",
         icon: "/icons/atom.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "www.benaissaboukhari.com",
     },
     {
         id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
+        text: "Send Me an Email",
+        icon: "/icons/email.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "mailto:ibenaissa.boukhari@gmail.com",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/benaissaboukhari/?originalSubdomain=fr",
     },
 ];
 
@@ -215,19 +254,27 @@ const photosLinks = [
 const gallery = [
     {
         id: 1,
-        img: "/images/gal1.png",
+        img: "/images/Benaissa-4.jpeg",
     },
     {
         id: 2,
-        img: "/images/gal2.png",
+        img: "/images/Benaissa-5.jpeg",
     },
     {
         id: 3,
-        img: "/images/gal3.png",
+        img: "/images/Benaissa-6.jpeg",
     },
     {
         id: 4,
-        img: "/images/gal4.png",
+        img: "/images/Benaissa-7.jpeg",
+    },
+    {
+        id: 5,
+        img: "/images/Benaissa-8.jpeg",
+    },
+    {
+        id: 6,
+        img: "/images/Benaissa-9.jpg",
     },
 ];
 
@@ -249,163 +296,260 @@ const WORK_LOCATION = {
     icon: "/icons/work.svg",
     kind: "folder",
     children: [
-        // ▶ Project 1
+        // ▶ Project Renault
+
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Technical Context",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-10 left-5", // icon position inside Finder
-            windowPosition: "top-[5vh] left-5", // optional: Finder window position
+            position: "top-40 left-90",
+            windowPosition: "top-[15vh] left-[30vw]",
             children: [
+                // FILE 1 — Brands & Tools
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Brands & Tools.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-                    ],
+                        "Main 3DEXPERIENCE Brands & Tools",
+                        "",
+                        "ENOVIA:",
+                        "- Project Management",
+                        "- Change Management",
+                        "- Issue Management",
+                        "- Document Management",
+                        "- Configuration Management",
+                        "",
+                        "DELMIA:",
+                        "- Manufacturing Item Definition",
+                        "- Process Planning",
+                        "- Work Instructions Authoring",
+                        "- Resource & Process Engineering",
+                        "- Manufacturing Collaboration",
+                        "",
+                        "NETVIBES:",
+                        "- Governance Dashboards",
+                        "- Data Analytics",
+                        "",
+                        "Other Tools:",
+                        "- 3DEXPERIENCE Base roles Apps",
+                        "- Digital Mockup Suite",
+                        "- Performance PCS Tools",
+                        "- APIs & Web Services integrations",
+                        "- Other Dassault Systèmes Internal CATIA Magic"
+                    ]
                 },
+
+                // FILE 2 — Platforms & Environments
                 {
                     id: 2,
-                    name: "nike.com",
-                    icon: "/images/safari.png",
+                    name: "Platforms & Environments.txt",
+                    icon: "/images/txt.png",
                     kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-                    position: "top-10 right-20",
+                    fileType: "txt",
+                    position: "top-28 left-72",
+                    description: [
+                        "Platforms & Environments",
+                        "",
+                        "3DEXPERIENCE Platform:",
+                        "- Collaborative spaces & P&O",
+                        "- Data lifecycle & maturity",
+                        "- Role-based widgets",
+                        "",
+                        "Cloud Environments:",
+                        "- Private & Public cloud",
+                        "- DBS Configuration",
+                        "- Secure Cloud Implementations",
+                        "",
+                        "On-Premises:",
+                        "- TXO ",
+                        "- Upgrade Experience",
+                        "- Infrastructure Collaboration (IT, R&D)",
+                        "",
+                        "Collaboration Context:",
+                        "- Extended Engineering",
+                        "- Cross-domain Process Integration"
+                    ]
                 },
-                {
-                    id: 4,
-                    name: "nike.png",
-                    icon: "/images/image.png",
-                    kind: "file",
-                    fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-1.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
-                },
-            ],
-        },
 
-        // ▶ Project 2
+                // FILE 3 — Architect Role
+                {
+                    id: 3,
+                    name: "Architect Role.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-52 left-20",
+                    description: [
+                        "Solution Architect Responsibilities",
+                        "",
+                        "Core Activities:",
+                        "- Process Analysis (AS-IS)",
+                        "- TO-BE Definition",
+                        "- Functional & Technical Architecture",
+                        "- Data Model Structuring",
+                        "",
+                        "Collaboration:",
+                        "- Workshops with Engineering & Business Teams",
+                        "- Alignment with Integrators",
+                        "- Guidance for MVP Delivery",
+                        "- Support for User Enablement",
+                        "",
+                        "Focus:",
+                        "- Ensuring coherence between business needs and platform capabilities",
+                        "- Improving efficiency and digital continuity"
+                    ]
+                }
+            ]
+        },
+        // ▶ Project NEXTER
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "Projects",
             icon: "/images/folder.png",
             kind: "folder",
-            position: "top-52 right-80",
-            windowPosition: "top-[20vh] left-7",
+            position: "top-30 right-80",
+            windowPosition: "top-[20vh] left-[20vw]",
             children: [
-                {
-                    id: 1,
-                    name: "AI Resume Analyzer Project.txt",
-                    icon: "/images/txt.png",
-                    kind: "file",
-                    fileType: "txt",
-                    position: "top-5 right-10",
-                    description: [
-                        "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-                        "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-                        "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
-                    ],
-                },
-                {
-                    id: 2,
-                    name: "ai-resume-analyzer.com",
-                    icon: "/images/safari.png",
-                    kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
-                    position: "top-20 left-20",
-                },
-                {
-                    id: 4,
-                    name: "ai-resume-analyzer.png",
-                    icon: "/images/image.png",
-                    kind: "file",
-                    fileType: "img",
-                    position: "top-52 left-80",
-                    imageUrl: "/images/project-2.png",
-                },
-                {
-                    id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
-                    kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 left-5",
-                },
-            ],
-        },
 
-        // ▶ Project 3
-        {
-            id: 7,
-            name: "Food Delivery App",
-            icon: "/images/folder.png",
-            kind: "folder",
-            position: "top-10 left-80",
-            windowPosition: "top-[33vh] left-7",
-            children: [
+                // FILE 1 — Renault
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Renault.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
-                    ],
+                        "Renault —  (Solution Architect)",
+                        "",
+                        "Industry: Automotive",
+                        "",
+                        "Context:",
+                        "Cloud-based PLM transformation program using ENOVIA, NETVIBES, and 3DPlay.",
+                        "",
+                        "Key Missions:",
+                        "- Designed PLM process architecture",
+                        "- Defined TO-BE workflows for engineering teams",
+                        "- Supported program governance and collaboration",
+                        "- Guided MVP delivery & validation",
+                        "",
+                        "Impact:",
+                        "Improved engineering continuity, process clarity, and cross-domain alignment."
+                    ]
                 },
+
+                // FILE 2 — Nexter
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
-                    icon: "/images/safari.png",
+                    name: "Nexter.txt",
+                    icon: "/images/txt.png",
                     kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-                    position: "top-10 right-20",
+                    fileType: "txt",
+                    position: "top-5 left-72",
+                    description: [
+                        "Nexter — (Solution Architect)",
+                        "",
+                        "Industry: Defense",
+                        "",
+                        "Context:",
+                        "PLM support across DMU, Change Management, and Issue Management.",
+                        "",
+                        "Key Missions:",
+                        "- Led DMU (Digital Mockup) validation",
+                        "- Improved Issue & Change workflows",
+                        "- Supported platform configuration",
+                        "- Contributed to SecNumCloud migration activities",
+                        "",
+                        "Impact:",
+                        "Strengthened engineering review processes and compliance workflows."
+                    ]
                 },
+
+                // FILE 3 — EDF
+                {
+                    id: 3,
+                    name: "EDF.txt",
+                    icon: "/images/txt.png",
+                    kind: "file",
+                    fileType: "txt",
+                    position: "top-38 left-10",
+                    description: [
+                        "EDF — (Solution Architect)",
+                        "",
+                        "Industry: Energy & Utilities",
+                        "",
+                        "Context:",
+                        "Document Management, Audit Management, and Project workflows on ENOVIA.",
+                        "",
+                        "Key Missions:",
+                        "- Supported on-prem migration from 20x to 22x",
+                        "- Designed audit & document workflows",
+                        "- Delivered a custom dashboard widget",
+                        "",
+                        "Impact:",
+                        "Improved compliance traceability and operational efficiency."
+                    ]
+                },
+
+                // FILE 4 — NEOM
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
-                    icon: "/images/image.png",
+                    name: "NEOM.txt",
+                    icon: "/images/txt.png",
                     kind: "file",
-                    fileType: "img",
-                    position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    fileType: "txt",
+                    position: "top-38 left-72",
+                    description: [
+                        "NEOM — (Solution Architect)",
+                        "",
+                        "Industry: Smart Cities",
+                        "",
+                        "Context:",
+                        "Digital Twin and asset lifecycle management for large-scale infrastructure.",
+                        "",
+                        "Key Missions:",
+                        "- Structured asset models",
+                        "- Designed MOC (Management of Change) workflows",
+                        "- Defined document & issue flows",
+                        "- Delivered initial production MVP",
+                        "",
+                        "Impact:",
+                        "Established the foundations of the digital twin and improved operational traceability."
+                    ]
                 },
+
+                // FILE 5 — R&D PCS & QA
                 {
                     id: 5,
-                    name: "Design.fig",
-                    icon: "/images/plain.png",
+                    name: "R&D — PCS & QA.txt",
+                    icon: "/images/txt.png",
                     kind: "file",
-                    fileType: "fig",
-                    href: "https://google.com",
-                    position: "top-60 right-20",
-                },
-            ],
+                    fileType: "txt",
+                    position: "top-52 left-40",
+                    description: [
+                        "Dassault Systèmes — PCS & QA (R&D)",
+                        "",
+                        "Domain: Performance & Quality Engineering",
+                        "",
+                        "Context:",
+                        "Work on the Design Review Suite and platform performance validation.",
+                        "",
+                        "Key Missions:",
+                        "- PCS (Performance, Capacity, Scalability) testing",
+                        "- Benchmark & infra preparation",
+                        "- Automation of regression scenarios",
+                        "- Stabilization of Design Review Suite",
+                        "",
+                        "Impact:",
+                        "Improved platform robustness and performance for large industrial clients."
+                    ]
+                }
+            ]
         },
     ],
 };
@@ -419,30 +563,30 @@ const ABOUT_LOCATION = {
     children: [
         {
             id: 1,
-            name: "me.png",
+            name: "Traveling-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            position: "top-5 left-5",
+            imageUrl: "/images/Benaissa-4.jpeg",
         },
         {
             id: 2,
-            name: "casual-me.png",
+            name: "Football-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
-            position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            position: "top-18 right-52",
+            imageUrl: "/images/Benaissa-5.jpeg",
         },
         {
             id: 3,
-            name: "conference-me.png",
+            name: "Flying-me.png",
             icon: "/images/image.png",
             kind: "file",
             fileType: "img",
             position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
+            imageUrl: "/images/Benaissa-3.jpeg",
         },
         {
             id: 4,
@@ -450,14 +594,16 @@ const ABOUT_LOCATION = {
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
-            position: "top-60 left-5",
-            subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            position: "top-40 left-5",
+            subtitle: "Beyond Screens ! Meet the guy behind the code ! ",
+            image: "/images/Benaissa.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Benaissa 👋, a curious mind who loves building things, understanding how they work, and making them look good along the way.",
+                "I’m passionate about design, technology, and crafting digital experiences that feel smooth, intuitive, and meaningful.",
+                "Whether it’s architecture, product thinking, or hands-on development, I enjoy bringing clarity and structure to complex systems.",
+                "Outside of work, you’ll probably find me traveling, exploring new cultures, or enjoying anything related to aviation and skydiving.",
+                "I’m driven by learning, creativity, and the desire to constantly improve both in what I build and who I become.",
+
             ],
         },
     ],
@@ -496,16 +642,7 @@ const TRASH_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-10",
-            imageUrl: "/images/trash-1.png",
-        },
-        {
-            id: 2,
-            name: "trash2.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-40 left-80",
-            imageUrl: "/images/trash-2.png",
+            imageUrl: "/images/trash-1.gif",
         },
     ],
 };

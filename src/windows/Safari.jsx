@@ -35,7 +35,7 @@ const Safari = () => {
         </div>
 
             <div className="blog">
-                <h2>My Projects Blog</h2>
+                <h2> Knowledge Hub</h2>
                 {blogPosts.map(({id,image,title,date,link}) => (
                     <div key={id} className="blog-post">
                         <div className="col-span-2">
